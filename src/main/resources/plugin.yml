@@ -1,0 +1,108 @@
+name: TALSCOMMAND
+version: ${project.version}
+main: talscommand.talscommand.TALSCOMMAND
+prefix: TALS
+description: Command for TALS server
+
+commands:
+   info:
+      description: Status confirmation command
+      usage: /<command>
+   stats:
+         description: Status confirmation command
+         usage: /<command>
+   status:
+         description: Status confirmation command
+         usage: /<command>
+   change:
+        description: Occupation change command
+        usage: /<command>
+   changeclass:
+        description: Occupation change command
+        usage: /<command>
+   class:
+        description: Occupation change command
+        usage: /<command>
+   c:
+        description: Occupation change command
+        usage: /<command>
+   seestats:
+        description: Confirm player status
+        usage: /<command> <player>
+        permission: tals.command.admin.stats
+        permission-message: §cYou don't have permission
+   sstats:
+        description: Confirm player status
+        usage: /<command> <player>
+        permission: tals.command.admin.stats
+        permission-message: §cYou don't have permission
+   ss:
+        description: Confirm player status
+        usage: /<command> <player>
+        permission: tals.command.admin.stats
+        permission-message: §cYou don't have permission
+   playerinfo:
+        description: Confirm player info
+        usage: /<command> <player>
+        permission: tals.command.admin.player.info
+        permission-message: §cYou don't have permission
+   pinfo:
+        description: Confirm player info
+        usage: /<command> <player>
+        permission: tals.command.admin.player.info
+        permission-message: §cYou don't have permission
+   pi:
+        description: Confirm player info
+        usage: /<command> <player>
+        permission: tals.command.admin.player.info
+        permission-message: §cYou don't have permission
+   check:
+        description: Check Mysql
+        usage: /<command>
+        permission: tals.command.admin.mysql.info
+        permission-message: §cYou don't have permission
+   mysqlcheck:
+        description: Check Mysql
+        usage: /<command>
+        permission: tals.command.admin.mysql.info
+        permission-message: §cYou don't have permission
+   sqlcheck:
+        description: Check Mysql
+        usage: /<command>
+        permission: tals.command.admin.mysql.info
+        permission-message: §cYou don't have permission
+   mysql:
+        description: Check Mysql
+        usage: /<command>
+        permission: tals.command.admin.mysql.info
+        permission-message: §cYou don't have permission
+   sql:
+        description: Check Mysql
+        usage: /<command>
+        permission: tals.command.admin.mysql.info
+        permission-message: §cYou don't have permission
+   sqlconnect:
+        description: Connect Mysql
+        usage: /<command>
+        permission: tals.command.admin.mysql.connect
+        permission-message: §cYou don't have permission
+   mysqlconnect:
+        description: Connect Mysql
+        usage: /<command>
+        permission: tals.command.admin.mysql.connect
+        permission-message: §cYou don't have permission
+   connect:
+        description: Connect Mysql
+        usage: /<command>
+        permission: tals.command.admin.mysql.connect
+        permission-message: §cYou don't have permission
+   serverstats:
+        description: server info
+        usage: /<command>
+        permission: tals.command.admin.mysql.connect
+        permission-message: §cYou don't have permission
+   serverinfo:
+        description: server info
+        usage: /<command>
+        permission: tals.command.admin.server.info
+        permission-message: §cYou don't have permission

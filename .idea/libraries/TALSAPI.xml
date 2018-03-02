@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TALSAPI">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Servers/プラグインテスト/plugins/TALSAPI.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
