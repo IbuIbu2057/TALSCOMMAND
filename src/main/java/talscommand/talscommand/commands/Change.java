@@ -80,7 +80,7 @@ public class Change implements CommandExecutor {
                 ||args[0].equalsIgnoreCase("Necromancer"))
         {
             pd.setClasses(Classes.NECROMANCER);
-            p.sendMessage(prefix+"§d§ネクロマンサー§fに変更しました");
+            p.sendMessage(prefix+"§d§lネクロマンサー§fに変更しました");
             return true;
         }
 
@@ -88,7 +88,7 @@ public class Change implements CommandExecutor {
                 ||args[0].equalsIgnoreCase("Priest"))
         {
             pd.setClasses(Classes.PRIEST);
-            p.sendMessage(prefix+"§b§プリースト§fに変更しました");
+            p.sendMessage(prefix+"§b§lプリースト§fに変更しました");
             return true;
         }
 
