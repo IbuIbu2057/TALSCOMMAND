@@ -147,8 +147,24 @@ commands:
         usage: /<command>
         permission: tals.command.admin.player.exp
         permission-message: §cYou don't have permission
-
-
-
-
+   debugexp:
+        description: debug exp
+        usage: /<command>
+        permission: tals.command.admin.debug.exp
+        permission-message: §cYou don't have permission
+   dexp:
+        description: debug exp
+        usage: /<command>
+        permission: tals.command.admin.debug.exp
+        permission-message: §cYou don't have permission
+   debugxp:
+        description: debug exp
+        usage: /<command>
+        permission: tals.command.admin.debug.exp
+        permission-message: §cYou don't have permission
+   dxp:
+        description: debug exp
+        usage: /<command>
+        permission: tals.command.admin.debug.exp
+        permission-message: §cYou don't have permission
 
