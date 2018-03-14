@@ -2,6 +2,7 @@ name: TALSCOMMAND
 version: ${project.version}
 main: talscommand.talscommand.TALSCOMMAND
 prefix: TALS
+authors: [ibuibu2056]
 description: Command for TALS server
 
 commands:
@@ -106,3 +107,48 @@ commands:
         usage: /<command>
         permission: tals.command.admin.server.info
         permission-message: §cYou don't have permission
+   plevel:
+        description: set player level
+        usage: /<command>
+        permission: tals.command.admin.player.level
+        permission-message: §cYou don't have permission
+   playerlevel:
+        description: set player level
+        usage: /<command>
+        permission: tals.command.admin.player.level
+        permission-message: §cYou don't have permission
+   setlevel:
+        description: set player level
+        usage: /<command>
+        permission: tals.command.admin.player.level
+        permission-message: §cYou don't have permission
+   setplayerlevel:
+        description: set player level
+        usage: /<command>
+        permission: tals.command.admin.player.level
+        permission-message: §cYou don't have permission
+   pexp:
+        description: set player exp
+        usage: /<command>
+        permission: tals.command.admin.player.exp
+        permission-message: §cYou don't have permission
+   playerexp:
+        description: set player exp
+        usage: /<command>
+        permission: tals.command.admin.player.exp
+        permission-message: §cYou don't have permission
+   setexp:
+        description: set player exp
+        usage: /<command>
+        permission: tals.command.admin.player.exp
+        permission-message: §cYou don't have permission
+   setplayerexp:
+        description: set player exp
+        usage: /<command>
+        permission: tals.command.admin.player.exp
+        permission-message: §cYou don't have permission
+
+
+
+
+
