@@ -36,6 +36,7 @@ public class PLevel implements CommandExecutor {
             if(!isInt(args[0]))
             {
                 sender.sendMessage(prefix+"数値を入力してください");
+                return true;
             }
 
             Player p = (Player) sender;
@@ -53,12 +54,7 @@ public class PLevel implements CommandExecutor {
             if(plugin.getServer().getPlayer(args[1]) == null)
             {
                 sender.sendMessage(prefix+"特定のプレイヤーデータは存在しません");
-            }
-
-            //プレイヤーがオンラインか
-            if(plugin.getServer().getPlayer(args[1]).isOnline())
-            {
-                sender.sendMessage(prefix+"指定のプレイヤーはオフラインです");
+                return true;
             }
 
             Player p = plugin.getServer().getPlayer(args[1]);
@@ -67,6 +63,7 @@ public class PLevel implements CommandExecutor {
             if(!isInt(args[0]))
             {
                 sender.sendMessage(prefix+"数値を入力してください");
+                return true;
             }
 
             TALSAPI.getPlayerDeta(p).getMainClass().setLevel(Integer.parseInt(args[0]));

@@ -53,12 +53,7 @@ public class PEXP implements CommandExecutor {
             if(plugin.getServer().getPlayer(args[1]) == null)
             {
                 sender.sendMessage(prefix+"指定のプレイヤーデータは存在しません");
-            }
-
-            //プレイヤーがオンラインか
-            if(plugin.getServer().getPlayer(args[1]).isOnline())
-            {
-                sender.sendMessage(prefix+"指定のプレイヤーはオフラインです");
+                return true;
             }
 
             Player p = plugin.getServer().getPlayer(args[1]);
@@ -67,6 +62,7 @@ public class PEXP implements CommandExecutor {
             if(!isDouble(args[0]))
             {
                 sender.sendMessage(prefix+"数値を入力してください");
+                return true;
             }
 
             TALSAPI.getPlayerDeta(p).getMainClass().setExp(Double.parseDouble(args[0]));
