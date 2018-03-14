@@ -52,7 +52,13 @@ public class PLevel implements CommandExecutor {
             //プレイヤーが存在するか
             if(plugin.getServer().getPlayer(args[1]) == null)
             {
-                sender.sendMessage("特定のプレイヤーデータは存在しません");
+                sender.sendMessage(prefix+"特定のプレイヤーデータは存在しません");
+            }
+
+            //プレイヤーがオンラインか
+            if(plugin.getServer().getPlayer(args[1]).isOnline())
+            {
+                sender.sendMessage(prefix+"指定のプレイヤーはオフラインです");
             }
 
             Player p = plugin.getServer().getPlayer(args[1]);
