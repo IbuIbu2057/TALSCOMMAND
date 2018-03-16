@@ -29,6 +29,7 @@ public class ChangeTab implements TabCompleter {
         p.playSound(p.getLocation(),Sound.BLOCK_DISPENSER_DISPENSE,0.8f,08f);
 
         tab.add("Soldier");
+        tab.add("Wizard");
         tab.add("Guardian");
         tab.add("Thief");
         tab.add("Hunter");
