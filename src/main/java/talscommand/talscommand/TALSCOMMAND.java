@@ -71,6 +71,9 @@ public final class TALSCOMMAND extends JavaPlugin implements Listener {
         getCommand("debugxp").setExecutor(new ExpDebug());
         getCommand("dxp").setExecutor(new ExpDebug());
         getCommand("dexp").setExecutor(new ExpDebug());
+        //アイテム入手コマンド
+        getCommand("getitem").setExecutor(new getitem());
+        getCommand("geti").setExecutor(new getitem());
 
         //TABコンプレックス
         getCommand("change").setTabCompleter(new ChangeTab());

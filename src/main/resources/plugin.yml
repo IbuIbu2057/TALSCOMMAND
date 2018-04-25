@@ -168,4 +168,27 @@ commands:
         usage: /<command>
         permission: tals.command.admin.debug.exp
         permission-message: §cYou don't have permission
+   getitem:
+        description: get tals item
+        usage: /<command>
+        permission: tals.command.admin.get.item
+        permission-message: §cYou don't have permission
+   geti:
+        description: get tals item
+        usage: /<command>
+        permission: tals.command.admin.get.item
+        permission-message: §cYou don't have permission
+   gi:
+        description: get tals item
+        usage: /<command>
+        permission: tals.command.admin.get.item
+        permission-message: §cYou don't have permission
+
+
+
+
+
+
+
+
 
