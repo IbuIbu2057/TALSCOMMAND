@@ -4,6 +4,7 @@ main: talscommand.talscommand.TALSCOMMAND
 prefix: TALS
 authors: [ibuibu2056]
 description: Command for TALS server
+softdepend: [TALSAPI, TALSITEM]
 
 commands:
    info:
