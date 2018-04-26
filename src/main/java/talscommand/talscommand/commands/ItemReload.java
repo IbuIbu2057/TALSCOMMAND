@@ -13,7 +13,11 @@ public class ItemReload implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
-        new ItemManager().itemLoad();
+        TALSITEMS plugin = TALSITEMS.getPlugin(TALSITEMS.class);
+
+        plugin.getServer().getPluginManager().disablePlugin(plugin);
+        plugin.getServer().getPluginManager().enablePlugin(plugin);
+
         sender.sendMessage(prefix+"TALSITEMSをリロードしました");
 
         return true;

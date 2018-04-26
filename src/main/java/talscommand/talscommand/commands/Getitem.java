@@ -26,7 +26,7 @@ public class Getitem implements CommandExecutor {
         //空白が0だった場合
         if(args.length==0)
         {
-            sender.sendMessage(prefix+"/Getitem <id>");
+            sender.sendMessage(prefix+"/getitem <id>");
             return true;
         }
 
