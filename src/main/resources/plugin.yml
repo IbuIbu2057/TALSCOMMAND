@@ -7,6 +7,7 @@ description: Command for TALS server
 softdepend: [TALSAPI, TALSITEM]
 
 commands:
+#ステータスを取得
    info:
       description: Status confirmation command
       usage: /<command>
@@ -16,6 +17,7 @@ commands:
    status:
          description: Status confirmation command
          usage: /<command>
+#クラスを変更
    change:
         description: Occupation change command
         usage: /<command>
@@ -28,6 +30,7 @@ commands:
    c:
         description: Occupation change command
         usage: /<command>
+#プレイヤーのステータスを取得
    seestats:
         description: Confirm player status
         usage: /<command> <player>
@@ -43,6 +46,7 @@ commands:
         usage: /<command> <player>
         permission: tals.command.admin.stats
         permission-message: §cYou don't have permission
+#プレイヤーの情報を入手
    playerinfo:
         description: Confirm player info
         usage: /<command> <player>
@@ -58,6 +62,7 @@ commands:
         usage: /<command> <player>
         permission: tals.command.admin.player.info
         permission-message: §cYou don't have permission
+#MySQLの状態をチェック
    check:
         description: Check Mysql
         usage: /<command>
@@ -83,6 +88,7 @@ commands:
         usage: /<command>
         permission: tals.command.admin.mysql.info
         permission-message: §cYou don't have permission
+#MySQLに接続
    sqlconnect:
         description: Connect Mysql
         usage: /<command>
@@ -98,6 +104,7 @@ commands:
         usage: /<command>
         permission: tals.command.admin.mysql.connect
         permission-message: §cYou don't have permission
+#サーバーの情報を取得
    serverstats:
         description: server info
         usage: /<command>
@@ -108,6 +115,7 @@ commands:
         usage: /<command>
         permission: tals.command.admin.server.info
         permission-message: §cYou don't have permission
+#プレイヤーのレベルを設定
    plevel:
         description: set player level
         usage: /<command>
@@ -128,6 +136,7 @@ commands:
         usage: /<command>
         permission: tals.command.admin.player.level
         permission-message: §cYou don't have permission
+#プレイヤーのEXPを設定
    pexp:
         description: set player exp
         usage: /<command>
@@ -148,6 +157,7 @@ commands:
         usage: /<command>
         permission: tals.command.admin.player.exp
         permission-message: §cYou don't have permission
+#デバッグEXP
    debugexp:
         description: debug exp
         usage: /<command>
@@ -168,6 +178,7 @@ commands:
         usage: /<command>
         permission: tals.command.admin.debug.exp
         permission-message: §cYou don't have permission
+#アイテム入手
    getitem:
         description: get tals item
         usage: /<command>
@@ -183,10 +194,38 @@ commands:
         usage: /<command>
         permission: tals.command.admin.get.item
         permission-message: §cYou don't have permission
-
-
-
-
+#アイテム一覧を表示
+   il:
+        description: get tals item list
+        usage: /<command>
+        permission: tals.command.admin.get.item.list
+        permission-message: §cYou don't have permission
+   itemlist:
+        description: get tals item list
+        usage: /<command>
+        permission: tals.command.admin.get.item.list
+        permission-message: §cYou don't have permission
+#アイテムリロード
+   itemreload:
+        description: tals items reload
+        usage: /<command>
+        permission: tals.command.admin.item.reload
+        permission-message: §cYou don't have permission
+   itemrl:
+        description: tals items reload
+        usage: /<command>
+        permission: tals.command.admin.item.reload
+        permission-message: §cYou don't have permission
+   ireload:
+        description: tals items reload
+        usage: /<command>
+        permission: tals.command.admin.item.reload
+        permission-message: §cYou don't have permission
+   irl:
+        description: tals items reload
+        usage: /<command>
+        permission: tals.command.admin.item.reload
+        permission-message: §cYou don't have permission
 
 
 
