@@ -4,7 +4,7 @@ main: talscommand.talscommand.TALSCOMMAND
 prefix: TALS
 authors: [ibuibu2056]
 description: Command for TALS server
-softdepend: [TALSAPI, TALSITEM]
+softdepend: [TALSAPI, TALSITEM, TALSCore]
 
 commands:
 #ステータスを取得
@@ -237,6 +237,10 @@ commands:
         usage: /<command>
         permission: tals.command.admin.item.debug
         permission-message: §cYou don't have permission
+#メニューコマンド
+   menu:
+        description: tals menu
+        usage: /<command>
 #TALSCOMMAND の help
    thelp:
         description: tals items reload

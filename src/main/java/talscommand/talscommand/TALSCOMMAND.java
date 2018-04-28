@@ -35,6 +35,8 @@ public final class TALSCOMMAND extends JavaPlugin implements Listener {
         getCommand("changeclass").setExecutor(new Change());
         getCommand("class").setExecutor(new Change());
         getCommand("c").setExecutor(new Change());
+        //メニューコマンド
+        getCommand("menu").setExecutor(new Menu());
         //ステータス確認
         getCommand("seestats").setExecutor(new SeeStats());
         getCommand("sstats").setExecutor(new SeeStats());
