@@ -226,6 +226,17 @@ commands:
         usage: /<command>
         permission: tals.command.admin.item.reload
         permission-message: §cYou don't have permission
+#アイテム系のレバッグコマンド
+   debugitem:
+        description: tals debug item
+        usage: /<command>
+        permission: tals.command.admin.item.debug
+        permission-message: §cYou don't have permission
+   ditem:
+        description: tals debug item
+        usage: /<command>
+        permission: tals.command.admin.item.debug
+        permission-message: §cYou don't have permission
 #TALSCOMMAND の help
    thelp:
         description: tals items reload

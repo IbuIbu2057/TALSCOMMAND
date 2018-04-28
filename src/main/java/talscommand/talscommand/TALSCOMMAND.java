@@ -83,6 +83,9 @@ public final class TALSCOMMAND extends JavaPlugin implements Listener {
         getCommand("itemrl").setExecutor(new ItemReload());
         getCommand("ireload").setExecutor(new ItemReload());
         getCommand("irl").setExecutor(new ItemReload());
+        //アイテムデバッグ
+        getCommand("debugitem").setExecutor(new ItemDebug());
+        getCommand("ditem").setExecutor(new ItemDebug());
         //TALSCOMMANDのヘルプ
         getCommand("thelp").setExecutor(new TALShelp());
         getCommand("talshelp").setExecutor(new TALShelp());
