@@ -12,6 +12,14 @@ public final class TALSCOMMAND extends JavaPlugin implements Listener {
 
     String prefix = "§e≪§cT§6A§aL§bS §9Command§e≫ ";
 
+    /***************************************************
+     *                                                 *
+     *   Copyright                                     *
+     *           The After Life Story                  *
+     *                              Rights Reserved    *
+     *                                                 *
+     ***************************************************/
+
     @Override
     public void onEnable() {
 
