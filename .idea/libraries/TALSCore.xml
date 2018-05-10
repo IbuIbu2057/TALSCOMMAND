@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TALSCore">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Servers/プラグインテスト/plugins/TALSCore.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -241,6 +241,22 @@ commands:
    menu:
         description: tals menu
         usage: /<command>
+#個人チャット
+   tell:
+        description: tals message command
+        usage: /<command>
+   msg:
+        description: tals message command
+        usage: /<command>
+   message:
+        description: tals message command
+        usage: /<command>
+   m:
+        description: tals message command
+        usage: /<command>
+   r:
+        description: tals message command
+        usage: /<command>
 #TALSCOMMAND の help
    thelp:
         description: tals items reload

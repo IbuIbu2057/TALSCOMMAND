@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="TALSCHAT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Servers/プラグインテスト/plugins/TALSCHAT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Servers/プラグインテスト/plugins/TALSCHAT.jar!/" />
+    </SOURCES>
+  </library>
+</component>

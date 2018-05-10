@@ -10,7 +10,7 @@ import talscommand.talscommand.commandtab.ChangeTab;
 
 public final class TALSCOMMAND extends JavaPlugin implements Listener {
 
-    String prefix = "§e≪§cT§6A§aL§bS §9Command§e≫ ";
+    private String prefix = "§e≪§cT§6A§aL§bS §9Command§e≫ ";
 
     /***************************************************
      *                                                 *
@@ -99,6 +99,12 @@ public final class TALSCOMMAND extends JavaPlugin implements Listener {
         //TALSCOMMANDのヘルプ
         getCommand("thelp").setExecutor(new TALShelp());
         getCommand("talshelp").setExecutor(new TALShelp());
+        //個人チャット
+        getCommand("tell").setExecutor(new Tell());
+        getCommand("message").setExecutor(new Tell());
+        getCommand("msg").setExecutor(new Tell());
+        getCommand("m").setExecutor(new Tell());
+        getCommand("r").setExecutor(new R());
 
         //TABコンプレックス
         getCommand("change").setTabCompleter(new ChangeTab());

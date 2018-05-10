@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TALSITEM">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Servers/プラグインテスト/plugins/TALSITEM.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
